@@ -30,3 +30,18 @@ https://juejin.im/post/5dc93091518825409533cd65
 10.252.92.4 slave1
 10.252.92.5 slave2
 ```
+
+
+**Ubuntu  add user and add sudo **
+
+```
+# adduser username
+
+```
+
+
+```
+# usermod -aG sudo username
+
+```
+

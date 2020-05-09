@@ -92,7 +92,11 @@ yarn jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar
 
 
 # Docker Hadoop 
+单节点
 sequenceiq/hadoop-docker:2.7.1  
 
 https://github.com/sequenceiq/hadoop-docker/tree/master     
 
+
+多节点    
+https://github.com/kiwenlau/hadoop-cluster-docker

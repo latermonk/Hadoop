@@ -21,3 +21,12 @@ https://juejin.im/post/5dc93091518825409533cd65
 ```
  hostnamectl set-hostname 　ｘｘｘ
 ```
+
+
+**vim /etc/hosts**
+
+```
+10.252.92.3 master
+10.252.92.4 slave1
+10.252.92.5 slave2
+```

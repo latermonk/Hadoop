@@ -57,3 +57,21 @@ wget https://raw.githubusercontent.com/latermonk/Linux-Env-Config/master/Source/
 wget https://raw.githubusercontent.com/latermonk/Linux-Env-Config/master/Source/sources.list-163-ubuntu18.04
 
 ```
+
+
+
+
+##  集群操作
+
+```
+bin/hadoop namenode -format
+
+sbin/start-all.sh
+
+hadoop dfsadmin -report
+
+
+sbin/stop-all.sh
+
+```
+

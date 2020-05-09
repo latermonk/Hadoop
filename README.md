@@ -45,3 +45,15 @@ https://juejin.im/post/5dc93091518825409533cd65
 
 ```
 
+
+
+### Ubuntu 18.04 更换源
+
+```
+ALI:
+wget https://raw.githubusercontent.com/latermonk/Linux-Env-Config/master/Source/sources.list-alicloud-ubuntu18.04
+
+163:
+wget https://raw.githubusercontent.com/latermonk/Linux-Env-Config/master/Source/sources.list-163-ubuntu18.04
+
+```

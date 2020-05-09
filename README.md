@@ -75,3 +75,18 @@ sbin/stop-all.sh
 
 ```
 
+
+
+#  第一个wordcount例子
+ 
+https://juejin.im/post/5e1594f1e51d4540e47ca934    
+
+
+
+
+```
+yarn jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar wordcount /demo/word.txt /output
+
+```
+
+

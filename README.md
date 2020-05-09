@@ -14,7 +14,8 @@ export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
 
 ```
 
-
+##  搭建三节点大数据集群   
+https://juejin.im/post/5dc93091518825409533cd65
 
 
 ```

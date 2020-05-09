@@ -90,3 +90,9 @@ yarn jar $HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.2.1.jar
 ```
 
 
+
+# Docker Hadoop 
+sequenceiq/hadoop-docker:2.7.1  
+
+https://github.com/sequenceiq/hadoop-docker/tree/master     
+

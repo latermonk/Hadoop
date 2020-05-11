@@ -1,5 +1,9 @@
 #  Python版本的 MR 
  
+Writing An Hadoop MapReduce Program In Python   
+https://www.michael-noll.com/tutorials/writing-an-hadoop-mapreduce-program-in-python/
+ 
+ 
 hadoop2.7运行python编写的wordcount的MapReduce程序   
 https://blog.csdn.net/Fourierrr_/article/details/80053877   
 

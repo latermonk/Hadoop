@@ -3,6 +3,7 @@
 hadoop2.7运行python编写的wordcount的MapReduce程序   
 https://blog.csdn.net/Fourierrr_/article/details/80053877   
 
+##  The First example 
 
 **mapper.py**
 
@@ -58,6 +59,17 @@ if word:
 
 
 
+```
+
+**本地测试**
+```
+echo "you? you, wow. Are uou you ok la " | ./mapper.py | sort |  ./reducer.py
+```
+
+
+**hadoop集群上进行测试**
+```
+bin/hadoop jar share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar -file /home/ubuntu/abc/python/mapper.py -mapper /home/ubuntu/abc/python/mapper.py  -file /home/ubuntu/abc/python/reducer.py -reducer /home/ubuntu/abc/python/reducer.py  -input /test/*  -output /test_out1
 ```
 
 

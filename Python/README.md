@@ -69,8 +69,13 @@ echo "you? you, wow. Are uou you ok la " | ./mapper.py | sort |  ./reducer.py
 
 **hadoop集群上进行测试**
 ```
-bin/hadoop jar share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar -file /home/ubuntu/abc/python/mapper.py -mapper /home/ubuntu/abc/python/mapper.py  -file /home/ubuntu/abc/python/reducer.py -reducer /home/ubuntu/abc/python/reducer.py  -input /test/*  -output /test_out1
+bin/hadoop jar share/hadoop/tools/lib/hadoop-streaming-3.2.1.jar \
+-file /home/ubuntu/abc/python/mapper.py -mapper /home/ubuntu/abc/python/mapper.py  \
+-file /home/ubuntu/abc/python/reducer.py -reducer /home/ubuntu/abc/python/reducer.py  \
+-input /test/*  -output /test_out1
 ```
+
+
 
 
 

@@ -1,2 +1,6 @@
 # YARN
 
+```
+yarn node -list
+
+```

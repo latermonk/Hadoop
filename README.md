@@ -100,3 +100,14 @@ https://github.com/sequenceiq/hadoop-docker/tree/master
 
 多节点    
 https://github.com/kiwenlau/hadoop-cluster-docker
+
+
+
+
+
+
+##  入门教程
+
+https://ithelp.ithome.com.tw/users/20107349/ironman/1309    
+
+
